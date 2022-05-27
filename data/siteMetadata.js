@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: `Reuben Rapose's Digital Garden`,
+  title: `Einar Lofgren`,
   author: 'Reuben Rapose',
   headerTitle: 'Reuben Rapose',
   description:

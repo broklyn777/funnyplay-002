@@ -34,6 +34,8 @@ module.exports = {
       },
       colors: {
         primary: colors.teal,
+
+        // @ts-ignore
         gray: colors.neutral,
       },
       typography: (theme) => ({

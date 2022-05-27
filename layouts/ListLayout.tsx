@@ -81,7 +81,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                           <Tag text={tags[0]} />
 
                           <dl>
-                            <dt className="sr-only">Published on</dt>
+                            <dt className="sr-only">Publiserad den</dt>
                             <dd className="text-base font-medium leading-6 text-gray-500 group-hover:text-primary-500 dark:text-gray-400">
                               <time dateTime="YYYY-MMM-DD">{formatDate(date)}</time>
                             </dd>
@@ -97,6 +97,16 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                               {title}
                             </Link>
                           </h2>
+                        </div>
+                        <div>
+                          <p className="text-base font-medium leading-4 tracking-tight">
+                            <Link
+                              href={`/blog/${slug}`}
+                              className="text-gray-900 transition duration-500 ease-in-out group-hover:text-primary-500 dark:text-gray-100"
+                            >
+                              {summary}
+                            </Link>
+                          </p>
                         </div>
                       </div>
                       {/* <div className="text-base font-medium leading-6">
