@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "next dev",
-    "dev": "next dev",
+    "dev": "next dev -p 3033",
     "build": "next build",
     "postbuild": "npm run sitemap && npm run rss",
     "sitemap": "cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/generate-sitemap.mjs",
